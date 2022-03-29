@@ -1,6 +1,2 @@
 # hello-world
-Repositório de tutorial do GitHub.<p>
-**Learn more**_!!_ <h2>
-  
-  
-
+Repositório de tutorial do GitHub.
