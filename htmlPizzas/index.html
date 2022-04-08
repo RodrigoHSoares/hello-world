@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Sale</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <ul>
+      <li>
+        <h1>Brazilian Pizza</h1>
+      </li>
+      <li>
+        <h2>Pizza Sale</h2>
+      </li>
+    </ul>
+  </header>
+  <section>
+    <h3>Select what pizza did you sell</h3>
+    <form>
+      <ul>
+        <li><input type="radio" id="Mussarela" name="pizzas">
+          <label for="Mussarela">Mussarela</label>
+        </li>
+        <li><input type="radio" id="Chicken with cheese" name="pizzas">
+          <label for="Chicken with cheese">Chicken with cheese</label>
+        </li>
+        <li><input type="radio" id="Portuguesa" name="pizzas">
+          <label for="Portuguesa">Portuguesa</label>
+        </li>
+      </ul>
+    </form>
+  </section>
+
+  <section>
+    <button id="Sales">Sales</button><button id="Reversal">Reversal</button>
+  </section>
+
+  <section id="table">
+    <table>
+      <tr>
+        <th>Flavors</th>Quantity<th>Values</th>
+      </tr>
+      <tr>
+        <td>Musarela</td>
+        <td id="mussarelaResult"></td>
+        <td id="mussarelaSale"></td>
+      </tr>
+      <tr>
+        <td>Chicken with cheese</td>
+        <td id="chickenResult"></td>
+        <td id="chickenSale"></td>
+      </tr>
+      <tr>
+        <td>Portuguesa</td>
+        <td id="portuguesaResult"></td>
+        <td id="portuguesaSale"></td>
+      </tr>
+    </table>
+  </section>
+  <section>
+    <button id="export">Spreadsheet</button>
+  </section>
+
+  <script src="tableToExcel.js"></script>
+  <script src="javascript.js"></script>
+
+</body>
+
+</html>
